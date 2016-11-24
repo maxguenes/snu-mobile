@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SNU</string>
+    <string name="action_estudante">Estudante</string>
+    <string name="action_materia">Matéria</string>
+    <string name="title_activity_view_materias">Matérias</string>
+    <string name="title_activity_view_estudante">Estudantes</string>
+    <string name="title_activity_view_estudante_historico">Históricos do estudante</string>
+</resources>

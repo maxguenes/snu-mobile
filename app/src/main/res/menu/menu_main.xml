@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.snu.upe.snu.MainActivity">
+
+    <item
+        android:id="@+id/action_estudante"
+        android:orderInCategory="100"
+        android:title="@string/action_estudante"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_materia"
+        android:orderInCategory="100"
+        android:title="@string/action_materia"
+        app:showAsAction="never" />
+</menu>

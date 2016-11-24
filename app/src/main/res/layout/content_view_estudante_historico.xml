@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.snu.upe.snu.ViewEstudanteHistorico"
+    tools:showIn="@layout/activity_view_estudante_historico">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout1">
+        <TableRow>
+            <TextView
+                android:text="Semestre"></TextView>
+            <TextView
+                android:text="Matéria"></TextView>
+            <TextView
+                android:text="Nota 1"></TextView>
+            <TextView
+                android:text="Nota 2"></TextView>
+            <TextView
+                android:text="Média"></TextView>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
